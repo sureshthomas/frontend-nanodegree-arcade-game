@@ -49,7 +49,7 @@ const GAME_INVARIANTS = Object.freeze({
  */
 let Enemy = function (x, y, speed) {
 
-    this.sprite = 'images/Enemy-bug.png';
+    this.sprite = 'images/enemy-bug.png';
     this.position = new Coordinate(x,y);
     this.speed = speed;
 };
